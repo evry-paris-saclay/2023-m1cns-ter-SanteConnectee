@@ -1,0 +1,14 @@
+General: Not Applicable
+Leads:
+I: Not Applicable
+II: Small P Wave
+III: Notched R Wave (R wave with a notch of 0.5 mm)
+aVF: Not Applicable
+aVR: Wide QRS Complex (QRS duration of 120 ms)
+aVL: Not Applicable
+V1: Not Applicable
+V2: Not Applicable
+V3: Small Q Wave (Q wave depth of 1.0 mm)
+V4: Absent T Wave
+V5: Not Applicable
+V6: Prominent T Wave (T wave amplitude of 2.0 mm)
