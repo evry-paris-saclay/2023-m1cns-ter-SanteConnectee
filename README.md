@@ -29,16 +29,20 @@ API-Key.env is the configuration file for the key of the API to be called.
 <ul>
    <li> The first thing to do is to write your own API-KEY in API-Key.env, here, API services of OpenAI and CLAUDE will be called, so replace "put_your_key_here" in API-Key.env after the corresponding key name with your ownn API key.
    <li> Secondly, you can build your own knowledg base using createCollection.py, the script defaults to using a PDF file named 'knowledge. pdf' in the same directory as input. Please merge the literature to be used for building the knowledge base into one PDF file and change it to this name. Then just run the script by simply:
-     `` python  createCollection.py``
+      
+     `python  createCollection.py`
+      
      If successful, the script will create a database file for the knowledge base in the same directory after it finishes.
+     
      As mentionned, the documents of original literatures used in my work are not provided here, you can find them on internet or choose any other literatures. The literatures that I used are :
    <ul>
      <li> Tomas B Garcia. 12-lead ECG.
      <li> Jane Huff. ECG Workout Exercises in Arrhythmia Interpretation.
   </ul>
   <li> Now you can try make a diagnosis, for that, create a txt file in the same directory and input the information to be diagnosed. This part of the information should be obtained from the health data of patients collected through annotations by another dedicated model in the proposed solution of this project for testing. It can also be manually entered or randomly generated using LLM. NB: This information should be presented in natural language and should be cut as accurately as possible, avoid using overly concise abbreviations. featurePrompts.txt is an example of such information. 
-
     By simply: 
-    `` python  diagnosis.py``
+     
+    ` python  diagnosis.py`
+     
     run the script, the script will ask to choose the LLM that will be used, then ask the name of input file name, just tape it.
 </ul>
