@@ -12,7 +12,7 @@ Index Terms: Health monitoring, wearable devices, personalized and precision med
 
 In folder docs you'll find my report and poster for this project, for more information and details, please read the report.
 
-In folder src you'll find scripts written during this project, their function is to establish a Chroma knowledge base via Chroma and utilize API calls to a large language model for automated diagnosis of annotated health data. During the diagnostic process, retrieval-augmented generation methods are employed using the generated Chroma knowledge base. 
+In main directory are the scripts written during this project, their function is to establish a Chroma knowledge base via Chroma and utilize API calls to a large language model for automated diagnosis of annotated health data. During the diagnostic process, retrieval-augmented generation methods are employed using the generated Chroma knowledge base. 
 
 createCollection.py is the script to create a knowledge base, it requires a pdf file as input and give a chromaDB base as output.
 
